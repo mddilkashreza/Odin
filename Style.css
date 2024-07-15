@@ -1,0 +1,155 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(14, 14, 14);
+}
+@font-face {
+    font-family: odin-font;
+    src: url(Norse-Bold.otf);
+}
+
+@font-face {
+    font-family: google-font;
+    src: url(Roboto-Regular.ttf);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.section-left{
+    height: 100vh;
+    width: 400px;
+    background-image: url("./image/bg.jpg");
+    background-size: cover;
+    
+}
+
+.logo{
+   position: relative;
+   top: 130px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 85px;
+   color: rgb(242, 222, 222);
+   background-color: rgba(0, 0, 0, 0.507);
+    
+
+}
+/* background-image: url(odin-lined.png);
+background-size: 85px 110px;
+display: inline-block;
+width: 85px;
+height: 110px;
+content: ""; */
+
+.logo::before{
+    content: "";
+    background-image: url(./image/odin-lined.png);
+    background-size: 85px 110px;
+    width: 85px;
+    height: 110px;
+   
+    
+}
+
+.section-left >  p{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+   color: white;
+   position: relative;
+   top: 75%;
+}
+.space{
+    color: white;
+    background: transparent;
+    padding: 0 4px;
+}
+
+.section-right{
+    background-color: rgb(245, 242, 238);
+    width: 650px;
+    height: 100vh;
+    
+    
+}
+.header{
+    margin-top: 80px;
+}
+
+.header > p{
+    font-weight: bold;
+    padding: 0 60px;
+}
+.header > h3{
+    padding: 0 60px; 
+}
+button{
+    padding: 15px;
+    width: 250px;
+    margin: 20px 0 0 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #596D48;
+    color: white;
+    border: #596D48;
+}
+
+
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="password"] {
+    height: 1px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.shadow{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    padding: 10px 0 0 0;
+}
+
+.shadow > h2{
+    margin-left: 60px;
+}
+
+.createAcc > p{
+    margin: 20px 0 0 60px;
+}
+
+ .col{
+    color: #596D48;
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+
